@@ -139,11 +139,11 @@ button.slick-prev{
     width: 25px;
     height: 51px;
     top: 35%;
-    cursor: pointer;
     background-color: transparent;
     position: absolute;
     background-image: url('../img/anterior.png');
     left: 14%;
+    cursor: pointer;
 }
 button.slick-next{
 	font-size: 0px;
@@ -152,11 +152,11 @@ button.slick-next{
     width: 25px;
     height: 51px;
     top: 35%;
-    cursor: pointer;
     background-color: transparent;
     position: absolute;
 	background-image: url('../img/proximo.png');
 	right: 14%;
+	cursor: pointer;
 }
 .slick-list{
 	width: 100%!important;
