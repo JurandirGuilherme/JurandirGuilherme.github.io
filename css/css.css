@@ -139,10 +139,11 @@ button.slick-prev{
     width: 25px;
     height: 51px;
     top: 35%;
+    cursor: pointer;
     background-color: transparent;
     position: absolute;
-	background-image: url('../img/anterior.png');
-	left: 14%;
+    background-image: url('../img/anterior.png');
+    left: 14%;
 }
 button.slick-next{
 	font-size: 0px;
@@ -151,6 +152,7 @@ button.slick-next{
     width: 25px;
     height: 51px;
     top: 35%;
+    cursor: pointer;
     background-color: transparent;
     position: absolute;
 	background-image: url('../img/proximo.png');
@@ -183,29 +185,4 @@ li.slick-active button {
 .slick-dots li{
 	padding-left: 10px;
 	display: inline-block;
-}
-.slick-prev,
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
-
-    position: absolute;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
-    cursor: pointer;
-
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
 }
